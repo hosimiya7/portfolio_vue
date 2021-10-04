@@ -11,7 +11,7 @@
                 about
             </li>
             <li>
-                service
+                skill
             </li>
         </ul>
     </div>
