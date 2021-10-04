@@ -44,6 +44,19 @@ ul li {
   font-size: 1.4rem;
 }
 
+textarea,
+input {
+  border: 1px solid #222222;
+  width: 90%;
+  outline: none;
+}
+
+.button {
+  border: none;
+  display: block;
+  width: 100px;
+}
+
 /*============
   ヘッダー
 =============*/
@@ -153,5 +166,27 @@ header .header-wrapper .header-text p {
 .work-wrapper .work-list a img {
   width: 90%;
   margin-top: 2rem;
+}
+
+/*============
+  contact
+=============*/
+
+.contact-wrapper {
+  margin: 6rem 0 0 1rem;
+}
+
+.contact-wrapper .contact-content {
+  margin-left: 1rem;
+}
+
+.contact-wrapper .contact-content form {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contact-wrapper .contact-content form p {
+  margin: 0.5rem 0 0 1.2rem;
+  text-align: left;
 }
 

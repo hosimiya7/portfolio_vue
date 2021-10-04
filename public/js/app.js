@@ -37647,36 +37647,34 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "contact-wrapper" }, [
-      _c("div", { staticClass: "flex" }, [
-        _c("div", { staticClass: "contact-heading" }, [
-          _c("ul", [_c("li", [_vm._v("contact")])])
+    return _c("div", { staticClass: "contact-wrapper flex" }, [
+      _c("div", { staticClass: "contact-heading" }, [
+        _c("ul", [_c("li", [_vm._v("contact")])])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "contact-content" }, [
+        _c("p", [
+          _vm._v(
+            "\n      制作のご依頼やご相談など、\n      お気軽にご連絡ください。\n    "
+          )
         ]),
         _vm._v(" "),
-        _c("div", { staticClass: "contact-content" }, [
-          _c("form", { attrs: { action: "" } }, [
-            _c("p", [
-              _vm._v(
-                "\n          制作のご依頼や、ご相談など\n          お気軽にご連絡ください。\n        "
-              )
-            ]),
-            _vm._v(" "),
-            _c("p", [_vm._v("name")]),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "text" } }),
-            _vm._v(" "),
-            _c("p", [_vm._v("e-mail")]),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "text" } }),
-            _vm._v(" "),
-            _c("p", [_vm._v("content")]),
-            _vm._v(" "),
-            _c("textarea", {
-              attrs: { name: "", id: "", cols: "30", rows: "10" }
-            }),
-            _vm._v(" "),
-            _c("input", { attrs: { type: "submit" } })
-          ])
+        _c("form", { attrs: { action: "" } }, [
+          _c("p", [_vm._v("name")]),
+          _vm._v(" "),
+          _c("input", { attrs: { type: "text" } }),
+          _vm._v(" "),
+          _c("p", [_vm._v("e-mail")]),
+          _vm._v(" "),
+          _c("input", { attrs: { type: "text" } }),
+          _vm._v(" "),
+          _c("p", [_vm._v("content")]),
+          _vm._v(" "),
+          _c("textarea", {
+            attrs: { name: "", id: "", cols: "30", rows: "10" }
+          }),
+          _vm._v(" "),
+          _c("input", { staticClass: "button", attrs: { type: "submit" } })
         ])
       ])
     ])
