@@ -1,13 +1,103 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+/*============
+初期設定
+=============*/
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: "HannariMincho";
+    src: url(/public/fonts/HannariMincho.otf);
+}
+@font-face {
+    font-family: "Yugoth";
+    src: url(/public/fonts/YuGothR.ttc);
+}
+@font-face {
+    font-family: "YuGothB";
+    src: url(/public/fonts/YuGothB.ttc);
 }
 
-header{
-    .header-wrapper{
-        img{
-            width: 60vw;
+/*============
+  変数定義
+=============*/
+
+$breakpoints: (
+    "md": "screen and (min-width: 560px)",
+    "lg": "screen and (min-width: 900px)",
+) !default;
+
+@mixin mq($breakpoint: md) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+        @content;
+    }
+}
+
+/*============
+  全体
+=============*/
+
+*{
+    font-family: $font-family-text;
+    line-height: 1.7;
+
+}
+
+/*============
+  ヘッダー
+=============*/
+
+header {
+    width: 100vw;
+    height: 100vh;
+    .header-wrapper {
+        .header-top {
+            background-color: $sub-color-blue;
+            height: 35vh;
+            text-align: right;
+            img {
+                width: 70%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .header-center {
+            height: 15vh;
+            background: linear-gradient(to right, $sub-color-yellow 65%, $sub-color-brown 35%);
+            h1 {
+                font-family: $font-family-title;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 2rem;
+                padding: 1rem 0 0 0.5rem;
+            }
+            p {
+                font-family: $font-family-title;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 1.5rem;
+                margin: 0 0 0.5rem 0.5rem;
+                line-height: 1;
+            }
+        }
+        .header-bottom {
+            background-color: $sub-color-blue;
+            height: 20vh;
+            img {
+                width: 45vw;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .header-text {
+            margin: 2rem 1rem 0 1rem;
+
+            h2 {
+                font-size: 1.5rem;
+                font-family: $font-family-title-ja;
+            }
+            p{
+                margin-top: 1rem;
+            }
         }
     }
 }

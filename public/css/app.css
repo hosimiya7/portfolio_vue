@@ -1,10 +1,103 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);* {
-  margin: 0;
-  padding: 0;
-  border: 0;
+@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+
+/*============
+初期設定
+=============*/
+
+@font-face {
+  font-family: "HannariMincho";
+  src: url(/public/fonts/HannariMincho.otf);
 }
 
-header .header-wrapper img {
-  width: 60vw;
+@font-face {
+  font-family: "Yugoth";
+  src: url(/public/fonts/YuGothR.ttc);
+}
+
+@font-face {
+  font-family: "YuGothB";
+  src: url(/public/fonts/YuGothB.ttc);
+}
+
+/*============
+  変数定義
+=============*/
+
+/*============
+  全体
+=============*/
+
+* {
+  font-family: "YugothR";
+  line-height: 1.7;
+}
+
+/*============
+  ヘッダー
+=============*/
+
+header {
+  width: 100vw;
+  height: 100vh;
+}
+
+header .header-wrapper .header-top {
+  background-color: #ebf0f2;
+  height: 35vh;
+  text-align: right;
+}
+
+header .header-wrapper .header-top img {
+  width: 70%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .header-wrapper .header-center {
+  height: 15vh;
+  background: linear-gradient(to right, #faecb4 65%, #e3d2d4 35%);
+}
+
+header .header-wrapper .header-center h1 {
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  padding: 1rem 0 0 0.5rem;
+}
+
+header .header-wrapper .header-center p {
+  font-family: adobe-garamond-pro, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0.5rem;
+  line-height: 1;
+}
+
+header .header-wrapper .header-bottom {
+  background-color: #ebf0f2;
+  height: 20vh;
+}
+
+header .header-wrapper .header-bottom img {
+  width: 45vw;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .header-wrapper .header-text {
+  margin: 2rem 1rem 0 1rem;
+}
+
+header .header-wrapper .header-text h2 {
+  font-size: 1.5rem;
+  font-family: "HannariMincho";
+}
+
+header .header-wrapper .header-text p {
+  margin-top: 1rem;
 }
 
