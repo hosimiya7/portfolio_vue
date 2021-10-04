@@ -14,6 +14,7 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/ang3ldx.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 
     <!-- Styles -->
     <link href="{{ asset('css/reset.css') }}" rel="stylesheet">
@@ -28,9 +29,9 @@
         </header>
         <main>
             <contents></contents>
+            <contact></contact>
         </main>
         <footer>
-
         </footer>
     </div>
 </body>
