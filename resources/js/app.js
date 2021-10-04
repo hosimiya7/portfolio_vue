@@ -21,6 +21,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('top', require('./components/top.vue').default);
+Vue.component('contents', require('./components/contents.vue').default);
 Vue.component('work', require('./components/work.vue').default);
 Vue.component('heading', require('./components/heading.vue').default);
 

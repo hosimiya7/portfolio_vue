@@ -27,7 +27,7 @@
             <top></top>
         </header>
         <main>
-            <work></work>
+            <contents></contents>
         </main>
         <footer>
 
