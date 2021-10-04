@@ -13,8 +13,10 @@
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/ang3ldx.css">
 
     <!-- Styles -->
+    <link href="{{ asset('css/reset.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
@@ -24,6 +26,12 @@
         <header>
             <top></top>
         </header>
+        <main>
+            <work></work>
+        </main>
+        <footer>
+
+        </footer>
     </div>
 </body>
 
