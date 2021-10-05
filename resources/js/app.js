@@ -25,6 +25,7 @@ Vue.component('contents', require('./components/contents.vue').default);
 Vue.component('work', require('./components/work.vue').default);
 Vue.component('heading', require('./components/heading.vue').default);
 Vue.component('contact', require('./components/contact.vue').default);
+Vue.component('bottom', require('./components/bottom.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

@@ -32,6 +32,7 @@
             <contact></contact>
         </main>
         <footer>
+            <bottom></bottom>
         </footer>
     </div>
 </body>
