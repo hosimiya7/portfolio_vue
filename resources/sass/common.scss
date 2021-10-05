@@ -41,7 +41,7 @@ $breakpoints: (
     line-height: 1.7;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
@@ -55,19 +55,27 @@ ul {
     }
 }
 
-textarea, input{
+textarea,
+input {
     border: 1px solid $font-color;
     width: 90%;
     outline: none;
+    text-align: left;
 }
 
-.button{
+.button {
     border: none;
     display: block;
     width: 100px;
 }
 
-
+.icon {
+    a {
+        i {
+            font-size: 1.5rem;
+        }
+    }
+}
 
 /*============
   ヘッダー
@@ -135,14 +143,10 @@ header {
 .heading-wrapper {
     padding: 1.5rem 0 0 1rem;
 
-    .icon{
+    .icon {
         margin: 1.5rem 0 0 0.5rem;
-        a{
-            i{
-                font-size: 1.5rem;
-            }
-        }
-        .github-icon{
+
+        .github-icon {
             margin-top: 0.5rem;
         }
     }
@@ -152,15 +156,15 @@ header {
   work
 =============*/
 
-.work-wrapper{
+.work-wrapper {
     background-color: $sub-color-gray;
-    padding-bottom: 3rem;
-    .work-list{
+    padding-bottom: 6rem;
+    .work-list {
         margin-top: 3rem;
         flex-flow: column;
-        a{
+        a {
             text-align: center;
-            img{
+            img {
                 width: 90%;
                 margin-top: 2rem;
             }
@@ -172,18 +176,43 @@ header {
   contact
 =============*/
 
-.contact-wrapper{
+.contact-wrapper {
     margin: 6rem 0 0 1rem;
-    .contact-content{
+    .contact-heading{
+        margin-top: -2rem;
+    }
+    .contact-content {
         margin-left: 1rem;
-        form{
+        .contact-text {
+            width: 90%;
+            margin-left: 1rem;
+        }
+        form {
             margin-top: 1rem;
             text-align: center;
-            p{
+            p {
                 margin: 0.5rem 0 0 1.2rem;
                 text-align: left;
-
             }
         }
+    }
+}
+
+/*============
+  footer
+=============*/
+
+.footer-wrapper {
+    margin-top: 6rem;
+    padding-top: 4rem;
+    background-color: $sub-color-gray;
+    .icon {
+        padding-left: 1rem;
+        .github-icon {
+            margin-left: 0.5rem;
+        }
+    }
+    .footer-text {
+        margin: 0.2rem 0 0.5rem 1rem;
     }
 }

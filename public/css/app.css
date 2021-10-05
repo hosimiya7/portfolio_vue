@@ -49,12 +49,17 @@ input {
   border: 1px solid #222222;
   width: 90%;
   outline: none;
+  text-align: left;
 }
 
 .button {
   border: none;
   display: block;
   width: 100px;
+}
+
+.icon a i {
+  font-size: 1.5rem;
 }
 
 /*============
@@ -137,10 +142,6 @@ header .header-wrapper .header-text p {
   margin: 1.5rem 0 0 0.5rem;
 }
 
-.heading-wrapper .icon a i {
-  font-size: 1.5rem;
-}
-
 .heading-wrapper .icon .github-icon {
   margin-top: 0.5rem;
 }
@@ -151,7 +152,7 @@ header .header-wrapper .header-text p {
 
 .work-wrapper {
   background-color: #f9f9f9;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
 }
 
 .work-wrapper .work-list {
@@ -176,7 +177,16 @@ header .header-wrapper .header-text p {
   margin: 6rem 0 0 1rem;
 }
 
+.contact-wrapper .contact-heading {
+  margin-top: -2rem;
+}
+
 .contact-wrapper .contact-content {
+  margin-left: 1rem;
+}
+
+.contact-wrapper .contact-content .contact-text {
+  width: 90%;
   margin-left: 1rem;
 }
 
@@ -188,5 +198,27 @@ header .header-wrapper .header-text p {
 .contact-wrapper .contact-content form p {
   margin: 0.5rem 0 0 1.2rem;
   text-align: left;
+}
+
+/*============
+  footer
+=============*/
+
+.footer-wrapper {
+  margin-top: 6rem;
+  padding-top: 4rem;
+  background-color: #f9f9f9;
+}
+
+.footer-wrapper .icon {
+  padding-left: 1rem;
+}
+
+.footer-wrapper .icon .github-icon {
+  margin-left: 0.5rem;
+}
+
+.footer-wrapper .footer-text {
+  margin: 0.2rem 0 0.5rem 1rem;
 }
 

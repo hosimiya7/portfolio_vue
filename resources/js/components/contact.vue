@@ -6,7 +6,7 @@
       </ul>
     </div>
     <div class="contact-content">
-      <p>
+      <p class="contact-text">
         制作のご依頼やご相談など、
         お気軽にご連絡ください。
       </p>
