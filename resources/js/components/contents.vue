@@ -1,6 +1,6 @@
 <template>
   <div>
-    <work></work>
+    <!-- <work></work> -->
     <!-- <service></service> -->
     <!-- <about></about> -->
     <!-- <skill></skill> -->

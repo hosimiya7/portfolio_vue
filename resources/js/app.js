@@ -26,6 +26,9 @@ Vue.component('work', require('./components/work.vue').default);
 Vue.component('heading', require('./components/heading.vue').default);
 Vue.component('contact', require('./components/contact.vue').default);
 Vue.component('bottom', require('./components/bottom.vue').default);
+Vue.component('service', require('./components/service.vue').default);
+Vue.component('about', require('./components/about.vue').default);
+Vue.component('skill', require('./components/skill.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
