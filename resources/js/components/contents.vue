@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- <work></work> -->
-    <!-- <service></service> -->
+    <service></service>
     <!-- <about></about> -->
     <!-- <skill></skill> -->
   </div>

@@ -62,6 +62,20 @@ input {
   font-size: 1.5rem;
 }
 
+.accent-text {
+  font-family: acuta, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+  color: #ebf0f2;
+  margin-bottom: -1.5rem;
+  margin-top: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
 /*============
   ヘッダー
 =============*/
@@ -167,6 +181,67 @@ header .header-wrapper .header-text p {
 .work-wrapper .work-list a img {
   width: 90%;
   margin-top: 2rem;
+}
+
+/*============
+  service
+=============*/
+
+.service-wrapper .service-content-wrapper {
+  flex-flow: column;
+  margin: 1rem 0 0 0;
+}
+
+.service-wrapper .flex {
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.service-wrapper img {
+  width: 60px;
+  margin-top: 0.5rem;
+}
+
+.service-wrapper .img-wrapper {
+  background-color: #ebf0f2;
+  border-radius: 20px;
+  width: 80px;
+  height: 56px;
+}
+
+.service-wrapper .heading-wrapper {
+  background-color: #ebf0f2;
+  padding-right: 1rem;
+}
+
+.service-wrapper .service-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.service-wrapper .service-content .flex {
+  align-items: flex-end;
+}
+
+.service-wrapper .hearing-wrapper .accent-text {
+  text-align: right;
+}
+
+.service-wrapper .design-wrapper .flex {
+  flex-flow: row-reverse;
+}
+
+.service-wrapper .design-wrapper img {
+  margin-left: 1rem;
+}
+
+.service-wrapper .coding-wrapper .accent-text {
+  text-align: right;
+}
+
+.service-wrapper .coding-wrapper img {
+  width: 70px;
+  height: 1.2;
 }
 
 /*============

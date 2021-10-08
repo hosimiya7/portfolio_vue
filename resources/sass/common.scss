@@ -77,6 +77,20 @@ input {
     }
 }
 
+.accent-text {
+    font-family: $font-family-accent;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3rem;
+    color: $sub-color-blue;
+    margin-bottom: -1.5rem;
+    margin-top: 1rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
 /*============
   ヘッダー
 =============*/
@@ -173,12 +187,70 @@ header {
 }
 
 /*============
+  service
+=============*/
+
+.service-wrapper {
+    .service-content-wrapper{
+        flex-flow: column;
+        margin: 1rem 0 0 0;
+    }
+    .flex{
+        margin-bottom: 1rem;
+        justify-content: space-between;
+    }
+    img{
+        width: 60px;
+        margin-top: 0.5rem;
+    }
+    .img-wrapper{
+        background-color: $sub-color-blue;
+        border-radius: 20px;
+        width: 80px;
+        height: 56px;
+    }
+    .heading-wrapper {
+        background-color: $sub-color-blue;
+        padding-right: 1rem;
+    }
+    .service-content{
+        width: 90%;
+        margin: 0 auto;
+        .flex{
+            align-items: flex-end;
+        }
+    }
+    .hearing-wrapper{
+        .accent-text{
+            text-align: right;
+        }
+    }
+    .design-wrapper{
+        .flex{
+            flex-flow: row-reverse;
+        }
+        img{
+            margin-left: 1rem;
+        }
+    }
+    .coding-wrapper{
+        .accent-text{
+            text-align: right;
+        }
+        img{
+            width: 70px;
+            height: 1.2;
+        }
+    }
+}
+
+/*============
   contact
 =============*/
 
 .contact-wrapper {
     margin: 6rem 0 0 1rem;
-    .contact-heading{
+    .contact-heading {
         margin-top: -2rem;
     }
     .contact-content {
