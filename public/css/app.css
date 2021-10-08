@@ -245,6 +245,91 @@ header .header-wrapper .header-text p {
 }
 
 /*============
+  about
+=============*/
+
+.about-wrapper {
+  margin-top: 1rem;
+}
+
+.about-wrapper .heading-wrapper {
+  padding-right: 1rem;
+}
+
+.about-wrapper .about-content-wrapper {
+  margin-top: 1rem;
+}
+
+.about-wrapper .about-content-wrapper .triangle-wrapper {
+  transform: rotate(82deg);
+  width: 0;
+  margin-left: 9rem;
+}
+
+.about-wrapper .about-content-wrapper .triangle {
+  border-right: 70px solid transparent;
+  border-bottom: 121.24355px solid #faecb4;
+  border-left: 70px solid transparent;
+  display: inline;
+  transform: rotate(45deg);
+}
+
+.about-wrapper .about-content-title {
+  transform: rotate(0);
+}
+
+.about-wrapper .about-content-img {
+  margin-top: 2rem;
+  position: relative;
+  background-color: #faecb4;
+}
+
+.about-wrapper .about-content-img::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  border-top: 10vw solid #ffffff;
+  border-right: 100vw solid transparent;
+  z-index: 2;
+}
+
+.about-wrapper .about-content-img::after {
+  content: "";
+  position: absolute;
+  top: 4rem;
+  left: 0;
+  border-top: 10vw solid #faecb4;
+  border-right: 100vw solid transparent;
+  z-index: 2;
+}
+
+.about-wrapper .about-content-img img {
+  width: 100%;
+  margin-top: 4rem;
+  filter: sepia(30%);
+}
+
+.about-wrapper .about-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about-wrapper .about-content h3 {
+  font-size: 1.5rem;
+  font-family: "HannariMincho";
+  margin-top: 3rem;
+}
+
+.about-wrapper .about-content h4 {
+  margin-bottom: 2rem;
+}
+
+.about-wrapper .about-content p {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/*============
   contact
 =============*/
 

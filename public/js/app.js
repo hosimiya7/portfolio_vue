@@ -37644,12 +37644,55 @@ var render = function() {
     _c(
       "div",
       { staticClass: "flex" },
-      [_c("heading"), _vm._v(" "), _c("div", { staticClass: "about-content" })],
+      [_c("heading"), _vm._v(" "), _vm._m(0)],
       1
-    )
+    ),
+    _vm._v(" "),
+    _vm._m(1)
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "about-content-wrapper" }, [
+      _c("div", { staticClass: "triangle-wrapper" }, [
+        _c("div", { staticClass: "triangle" })
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "about-content-title about-content" }, [
+        _c("h3", [_vm._v("星宮 りん")]),
+        _vm._v(" "),
+        _c("h4", [_vm._v("Hosimiya Rin")])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "about-content-text about-content" }, [
+        _c("p", [
+          _vm._v(
+            "2021年4月からデザインやコーディング、プログラミングを始め、現在は、web制作に携わったり、ゲームを開発したりしています。"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "「魅力を最大限伝えること」をモットーとしております。お客様の目的を達成するために、どのようなwebサイトを作るべきか提案させていただければと思います。"
+          )
+        ]),
+        _vm._v(" "),
+        _c("p", [_vm._v("まずは、お気軽にご連絡ください。")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "about-content-img" }, [
+      _c("img", { attrs: { src: "/img/about.jpg", alt: "" } })
+    ])
+  }
+]
 render._withStripped = true
 
 
@@ -37779,7 +37822,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("service")], 1)
+  return _c("div", [_c("about")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
