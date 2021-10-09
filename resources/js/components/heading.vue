@@ -1,10 +1,10 @@
 <template>
   <div class="heading-wrapper">
     <ul>
-      <li>works</li>
-      <li>service</li>
-      <li>about</li>
-      <li>skill</li>
+      <li v-on:click="showPageId(0)">works</li>
+      <li v-on:click="showPageId(1)">service</li>
+      <li v-on:click="showPageId(2)">about</li>
+      <li v-on:click="showPageId(3)">skill</li>
     </ul>
     <div class="icon">
       <div class="twitter-icon">
@@ -20,3 +20,17 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+    mounted() {
+        console.log(this.$store.state.pageId)
+    },
+    methods: {
+        showPageId(num) {
+            this.$store.state.pageId = num
+        }
+
+    }
+}
+</script>
