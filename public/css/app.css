@@ -178,6 +178,19 @@ header .header-wrapper .header-text p {
   padding: 1.5rem 0 0 1rem;
 }
 
+.heading-wrapper li {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.heading-wrapper li:hover {
+  transform: rotateX(360deg);
+}
+
+.heading-wrapper .line {
+  border-bottom: solid 1px #222222;
+}
+
 .heading-wrapper .icon {
   margin: 1.5rem 0 0 0.5rem;
 }
@@ -357,37 +370,6 @@ header .header-wrapper .header-text p {
 }
 
 /*============
-  contact
-=============*/
-
-.contact-wrapper {
-  margin: 6rem 0 0 1rem;
-}
-
-.contact-wrapper .contact-heading {
-  margin-top: -2rem;
-}
-
-.contact-wrapper .contact-content {
-  margin-left: 1rem;
-}
-
-.contact-wrapper .contact-content .contact-text {
-  width: 90%;
-  margin-left: 1rem;
-}
-
-.contact-wrapper .contact-content form {
-  margin-top: 1rem;
-  text-align: center;
-}
-
-.contact-wrapper .contact-content form p {
-  margin: 0.5rem 0 0 1.2rem;
-  text-align: left;
-}
-
-/*============
   skill
 =============*/
 
@@ -432,9 +414,39 @@ header .header-wrapper .header-text p {
 }
 
 .skill-wrapper .background-color {
-  width: 100vw;
   height: 100px;
   background-color: #e3d2d4;
+}
+
+/*============
+  contact
+=============*/
+
+.contact-wrapper {
+  margin: 6rem 0 0 1rem;
+}
+
+.contact-wrapper .contact-heading {
+  margin-top: -2rem;
+}
+
+.contact-wrapper .contact-content {
+  margin-left: 1rem;
+}
+
+.contact-wrapper .contact-content .contact-text {
+  width: 90%;
+  margin-left: 1rem;
+}
+
+.contact-wrapper .contact-content form {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.contact-wrapper .contact-content form p {
+  margin: 0.5rem 0 0 1.2rem;
+  text-align: left;
 }
 
 /*============

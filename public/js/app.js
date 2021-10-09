@@ -1971,6 +1971,9 @@ __webpack_require__.r(__webpack_exports__);
   methods: {
     showPageId: function showPageId(num) {
       this.$store.state.pageId = num;
+    },
+    getPageId: function getPageId() {
+      return this.$store.state.pageId;
     }
   }
 });
@@ -37930,6 +37933,7 @@ var render = function() {
       _c(
         "li",
         {
+          class: { line: _vm.getPageId() === 0 },
           on: {
             click: function($event) {
               return _vm.showPageId(0)
@@ -37942,6 +37946,7 @@ var render = function() {
       _c(
         "li",
         {
+          class: { line: _vm.getPageId() === 1 },
           on: {
             click: function($event) {
               return _vm.showPageId(1)
@@ -37954,6 +37959,7 @@ var render = function() {
       _c(
         "li",
         {
+          class: { line: _vm.getPageId() === 2 },
           on: {
             click: function($event) {
               return _vm.showPageId(2)
@@ -37966,6 +37972,7 @@ var render = function() {
       _c(
         "li",
         {
+          class: { line: _vm.getPageId() === 3 },
           on: {
             click: function($event) {
               return _vm.showPageId(3)
