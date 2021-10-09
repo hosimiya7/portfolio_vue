@@ -37986,15 +37986,31 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "icon" }, [
       _c("div", { staticClass: "twitter-icon" }, [
-        _c("a", { attrs: { href: "https://twitter.com/hosimiyaprog" } }, [
-          _c("i", { staticClass: "fab fa-twitter" })
-        ])
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://twitter.com/hosimiyaprog",
+              target: "_blank",
+              rel: "noopener noreferrer"
+            }
+          },
+          [_c("i", { staticClass: "fab fa-twitter" })]
+        )
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "github-icon" }, [
-        _c("a", { attrs: { href: "https://github.com/hosimiya7" } }, [
-          _c("i", { staticClass: "fab fa-github" })
-        ])
+        _c(
+          "a",
+          {
+            attrs: {
+              href: "https://github.com/hosimiya7",
+              target: "_blank",
+              rel: "noopener noreferrer"
+            }
+          },
+          [_c("i", { staticClass: "fab fa-github" })]
+        )
       ])
     ])
   }
@@ -38288,10 +38304,21 @@ var staticRenderFns = [
         {
           attrs: {
             href: "https://hosimiya7.github.io/Japanese_sweets/",
-            target: "_blank"
+            target: "_blank",
+            rel: "noopener noreferrer"
           }
         },
-        [_c("img", { attrs: { src: "/img/work-1.png", alt: "" } })]
+        [
+          _c("img", { attrs: { src: "/img/work-1.png", alt: "" } }),
+          _vm._v(" "),
+          _c("div", { staticClass: "mask" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("和菓子サイト（自主制作）/ 2021.9")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("別windowで開く")])
+            ])
+          ])
+        ]
       ),
       _vm._v(" "),
       _c(
@@ -38299,10 +38326,21 @@ var staticRenderFns = [
         {
           attrs: {
             href: "https://hosimiya7.github.io/hoshikake_site2/",
-            target: "_blank"
+            target: "_blank",
+            rel: "noopener noreferrer"
           }
         },
-        [_c("img", { attrs: { src: "/img/work-2.png", alt: "" } })]
+        [
+          _c("img", { attrs: { src: "/img/work-2.png", alt: "" } }),
+          _vm._v(" "),
+          _c("div", { staticClass: "mask" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("お化け屋敷サイト（自主制作）/ 2021.8")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("別windowで開く")])
+            ])
+          ])
+        ]
       )
     ])
   }

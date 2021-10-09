@@ -91,6 +91,28 @@ input {
     font-weight: bold;
 }
 
+.caption {
+    font-size: 130%;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: absolute; /* 絶対位置指定 */
+    top: 0;
+    left: 0;
+    opacity: 0; /* マスクを表示しない */
+    background-color: rgba(0, 0, 0, 0.4); /* マスクは半透明 */
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    &:hover {
+        opacity: 1; /* マスクを表示する */
+    }
+}
+
 /*============
   ヘッダー
 =============*/
@@ -177,10 +199,11 @@ header {
         margin-top: 3rem;
         flex-flow: column;
         a {
-            text-align: center;
+            width: 90%;
+            margin: 2rem auto 0 auto;
+            position: relative;
             img {
-                width: 90%;
-                margin-top: 2rem;
+                width: 100%;
             }
         }
     }
@@ -349,10 +372,10 @@ header {
 =============*/
 .skill-wrapper {
     margin-top: 3rem;
-    .heading-wrapper{
+    .heading-wrapper {
         background-color: $main-color;
     }
-    .skill-flex{
+    .skill-flex {
         margin-top: -2rem;
     }
     .skill-heading {

@@ -76,6 +76,32 @@ input {
   font-weight: bold;
 }
 
+.caption {
+  font-size: 130%;
+  text-align: center;
+  padding-top: 80px;
+  color: #fff;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* 絶対位置指定 */
+  top: 0;
+  left: 0;
+  opacity: 0;
+  /* マスクを表示しない */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* マスクは半透明 */
+  transition: all 0.2s ease;
+}
+
+.mask:hover {
+  opacity: 1;
+  /* マスクを表示する */
+}
+
 /*============
   ヘッダー
 =============*/
@@ -175,12 +201,13 @@ header .header-wrapper .header-text p {
 }
 
 .work-wrapper .work-list a {
-  text-align: center;
+  width: 90%;
+  margin: 2rem auto 0 auto;
+  position: relative;
 }
 
 .work-wrapper .work-list a img {
-  width: 90%;
-  margin-top: 2rem;
+  width: 100%;
 }
 
 /*============
