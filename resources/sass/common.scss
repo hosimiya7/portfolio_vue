@@ -109,7 +109,7 @@ header {
             }
         }
         .header-center {
-            height: 15vh;
+            height: 16vh;
             background: linear-gradient(to right, $sub-color-yellow 65%, $sub-color-brown 35%);
             h1 {
                 font-family: $font-family-title;
@@ -341,6 +341,46 @@ header {
                 text-align: left;
             }
         }
+    }
+}
+
+/*============
+  skill
+=============*/
+.skill-wrapper {
+    margin-top: 3rem;
+    .heading-wrapper{
+        background-color: $main-color;
+    }
+    .skill-flex{
+        margin-top: -2rem;
+    }
+    .skill-heading {
+        background-image: url("/img/skill.png");
+        background-repeat: repeat-y;
+        background-position: center;
+    }
+    .skill-content-wrapper {
+        margin-bottom: 3rem;
+        .skill-content {
+            width: 90%;
+            margin: 2rem auto 0 auto;
+            .flex {
+                justify-content: space-between;
+                align-items: flex-end;
+            }
+            img {
+                width: 50px;
+            }
+            p {
+                margin-top: 0.5rem;
+            }
+        }
+    }
+    .background-color {
+        width: 100vw;
+        height: 100px;
+        background-color: $sub-color-brown;
     }
 }
 

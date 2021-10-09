@@ -37822,7 +37822,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [_c("about")], 1)
+  return _c("div", [_c("skill")], 1)
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -38000,15 +38000,79 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "skill-wrapper" }, [
-    _c(
-      "div",
-      { staticClass: "flex" },
-      [_c("heading"), _vm._v(" "), _c("div", { staticClass: "skill-content" })],
-      1
-    )
+    _c("div", { staticClass: "flex skill-flex" }, [
+      _c("div", { staticClass: "skill-heading" }, [_c("heading")], 1),
+      _vm._v(" "),
+      _vm._m(0)
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "background-color" })
   ])
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "skill-content-wrapper" }, [
+      _c("div", { staticClass: "skill-content" }, [
+        _c("div", { staticClass: "flex" }, [
+          _c("h3", { staticClass: "bold" }, [_vm._v("html css(sass)")]),
+          _vm._v(" "),
+          _c("img", { attrs: { src: "/img/sass.svg", alt: "" } })
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n          実務経験あり。デザインからコーディングまで、一人で行うことが可能です。\n          保守性の高いコードを書くことを大切しにしたいと思い、css設計を学んでいます。\n          スタイリングは基本的にsassで行っています。\n        "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "skill-content" }, [
+        _c("div", { staticClass: "flex" }, [
+          _c("h3", { staticClass: "bold" }, [_vm._v("Adobe XD")]),
+          _vm._v(" "),
+          _c("img", { attrs: { src: "/img/adobe-xd.png", alt: "" } })
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n          デザインはXDで作成しており、基本的な操作はできます。\n          デザインのみの作成ももちろん可能です。今後はイラレ等を使い、ロゴ制作や画像編集等も行えるようにしたいと思い、現在勉強中です。\n        "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "skill-content" }, [
+        _c("div", { staticClass: "flex" }, [
+          _c("h3", { staticClass: "bold" }, [_vm._v("php(laravel)")]),
+          _vm._v(" "),
+          _c("img", { attrs: { src: "/img/laravel.svg", alt: "" } })
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n          掲示板やTODOリストなどがの作成経験があります。お問い合わせフォームも作成可能です。\n          自主製作しているゲームのバックエンドの処理もlaravelで作っています。基本的なデータの処理を扱うことはできるレベルです。\n        "
+          )
+        ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "skill-content" }, [
+        _c("div", { staticClass: "flex" }, [
+          _c("h3", { staticClass: "bold" }, [_vm._v("javascript(vue)")]),
+          _vm._v(" "),
+          _c("img", { attrs: { src: "/img/vue.svg", alt: "" } })
+        ]),
+        _vm._v(" "),
+        _c("p", [
+          _vm._v(
+            "\n          jQueryとVue.jsを使って、動きのあるサイトを作ることが可能です。当サイトもVue.jsを使用して作成しています。\n          自主製作しているゲームのフロントエンドもVue.js です。\n          ユーザーの操作によって見た目や動きを変えること、非同期通信を取り入れることも可能です。\n        "
+          )
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 

@@ -98,7 +98,7 @@ header .header-wrapper .header-top img {
 }
 
 header .header-wrapper .header-center {
-  height: 15vh;
+  height: 16vh;
   background: linear-gradient(to right, #faecb4 65%, #e3d2d4 35%);
 }
 
@@ -358,6 +358,56 @@ header .header-wrapper .header-text p {
 .contact-wrapper .contact-content form p {
   margin: 0.5rem 0 0 1.2rem;
   text-align: left;
+}
+
+/*============
+  skill
+=============*/
+
+.skill-wrapper {
+  margin-top: 3rem;
+}
+
+.skill-wrapper .heading-wrapper {
+  background-color: #ffffff;
+}
+
+.skill-wrapper .skill-flex {
+  margin-top: -2rem;
+}
+
+.skill-wrapper .skill-heading {
+  background-image: url("/img/skill.png");
+  background-repeat: repeat-y;
+  background-position: center;
+}
+
+.skill-wrapper .skill-content-wrapper {
+  margin-bottom: 3rem;
+}
+
+.skill-wrapper .skill-content-wrapper .skill-content {
+  width: 90%;
+  margin: 2rem auto 0 auto;
+}
+
+.skill-wrapper .skill-content-wrapper .skill-content .flex {
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.skill-wrapper .skill-content-wrapper .skill-content img {
+  width: 50px;
+}
+
+.skill-wrapper .skill-content-wrapper .skill-content p {
+  margin-top: 0.5rem;
+}
+
+.skill-wrapper .background-color {
+  width: 100vw;
+  height: 100px;
+  background-color: #e3d2d4;
 }
 
 /*============

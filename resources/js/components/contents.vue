@@ -2,7 +2,7 @@
   <div>
     <!-- <work></work> -->
     <!-- <service></service> -->
-    <about></about>
-    <!-- <skill></skill> -->
+    <!-- <about></about> -->
+    <skill></skill>
   </div>
 </template>
