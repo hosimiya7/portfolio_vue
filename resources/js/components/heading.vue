@@ -24,7 +24,6 @@
 <script>
 export default {
     mounted() {
-        console.log(this.$store.state.pageId)
     },
     methods: {
         showPageId(num) {

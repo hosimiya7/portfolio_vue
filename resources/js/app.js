@@ -10,7 +10,6 @@ window.Vue = require('vue');
 
 import router from './router';
 import store from './store/index';
-
 import Vuex from 'vuex';
 
 /**

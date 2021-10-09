@@ -32,6 +32,12 @@
   line-height: 1.7;
 }
 
+@media screen and (min-width: 560px) {
+  span {
+    display: inline-block;
+  }
+}
+
 .flex {
   display: flex;
 }
@@ -79,8 +85,15 @@ input {
 .caption {
   font-size: 130%;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 5%;
   color: #fff;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 560px) {
+  .caption {
+    font-size: 1rem;
+  }
 }
 
 .mask {
@@ -102,6 +115,10 @@ input {
   /* マスクを表示する */
 }
 
+.content-wrapper {
+  margin-top: 3rem;
+}
+
 /*============
   ヘッダー
 =============*/
@@ -116,6 +133,12 @@ header .header-wrapper .header-top {
   text-align: right;
 }
 
+@media screen and (min-width: 900px) {
+  header .header-wrapper .header-top {
+    height: 45vh;
+  }
+}
+
 header .header-wrapper .header-top img {
   width: 70%;
   height: 100%;
@@ -128,12 +151,24 @@ header .header-wrapper .header-center {
   background: linear-gradient(to right, #faecb4 65%, #e3d2d4 35%);
 }
 
+@media screen and (min-width: 900px) {
+  header .header-wrapper .header-center {
+    height: 25vh;
+  }
+}
+
 header .header-wrapper .header-center h1 {
   font-family: adobe-garamond-pro, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 2rem;
   padding: 0.5rem 0 0 0.5rem;
+}
+
+@media screen and (min-width: 900px) {
+  header .header-wrapper .header-center h1 {
+    font-size: 3rem;
+  }
 }
 
 header .header-wrapper .header-center p {
@@ -145,9 +180,22 @@ header .header-wrapper .header-center p {
   line-height: 1;
 }
 
+@media screen and (min-width: 900px) {
+  header .header-wrapper .header-center p {
+    font-size: 2rem;
+  }
+}
+
 header .header-wrapper .header-bottom {
   background-color: #ebf0f2;
   height: 20vh;
+}
+
+@media screen and (min-width: 900px) {
+  header .header-wrapper .header-bottom {
+    height: 30vh;
+    position: relative;
+  }
 }
 
 header .header-wrapper .header-bottom img {
@@ -158,7 +206,16 @@ header .header-wrapper .header-bottom img {
 }
 
 header .header-wrapper .header-text {
-  padding: 2rem 1rem 0 1rem;
+  padding: 5vw 1rem 0 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  header .header-wrapper .header-text {
+    position: absolute;
+    top: 68vh;
+    left: 45vw;
+    margin: 0 1rem;
+  }
 }
 
 header .header-wrapper .header-text h2 {
@@ -213,10 +270,35 @@ header .header-wrapper .header-text p {
   flex-flow: column;
 }
 
+@media screen and (min-width: 560px) {
+  .work-wrapper .work-list {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}
+
 .work-wrapper .work-list a {
   width: 90%;
   margin: 2rem auto 0 auto;
   position: relative;
+}
+
+@media screen and (min-width: 560px) {
+  .work-wrapper .work-list a {
+    width: 40%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .work-wrapper .work-list a {
+    width: 30%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 
 .work-wrapper .work-list a img {
@@ -287,10 +369,6 @@ header .header-wrapper .header-text p {
 /*============
   about
 =============*/
-
-.about-wrapper {
-  margin-top: 1rem;
-}
 
 .about-wrapper .heading-wrapper {
   padding-right: 1rem;
@@ -374,7 +452,7 @@ header .header-wrapper .header-text p {
 =============*/
 
 .skill-wrapper {
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .skill-wrapper .heading-wrapper {
@@ -392,6 +470,7 @@ header .header-wrapper .header-text p {
 }
 
 .skill-wrapper .skill-content-wrapper {
+  margin-top: 2rem;
   margin-bottom: 3rem;
 }
 

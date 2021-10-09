@@ -1965,9 +1965,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {
-    console.log(this.$store.state.pageId);
-  },
+  mounted: function mounted() {},
   methods: {
     showPageId: function showPageId(num) {
       this.$store.state.pageId = num;
@@ -37894,6 +37892,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { staticClass: "content-wrapper" },
     [
       this.$store.state.pageId === 0 ? _c("work") : _vm._e(),
       _vm._v(" "),
@@ -38262,9 +38261,13 @@ var staticRenderFns = [
         _c("h2", [_vm._v("美しさと合理性の追求")]),
         _vm._v(" "),
         _c("p", [
-          _vm._v(
-            "\n      「魅力を最大限伝える」ことを第一に、\n      お客様の目的に沿った、様々な「魅せ方」を\n      ご提案させていただきます。\n    "
-          )
+          _c("span", [_vm._v("「魅力を最大限伝える」ことを第一に、")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("お客様の目的に沿った、")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("様々な「魅せ方」を")]),
+          _vm._v(" "),
+          _c("span", [_vm._v("ご提案させていただきます。")])
         ])
       ])
     ])
