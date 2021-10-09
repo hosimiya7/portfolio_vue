@@ -454,9 +454,19 @@ header {
     .skill-content-wrapper {
         margin-top: 2rem;
         margin-bottom: 3rem;
+        flex-flow: column;
+        @include mq(md) {
+            flex-flow: row;
+            justify-content: space-around;
+            flex-flow: wrap;
+            align-items: baseline;
+        }
         .skill-content {
             width: 90%;
             margin: 2rem auto 0 auto;
+            @include mq(md) {
+                width: 40%;
+            }
             .flex {
                 justify-content: space-between;
                 align-items: flex-end;
@@ -481,13 +491,16 @@ header {
 
 .contact-wrapper {
     margin: 6rem 0 0 1rem;
+
     .contact-heading {
         margin-top: -2rem;
     }
     .contact-content {
         margin-left: 1rem;
+        @include mq(md) {
+            margin: 0 auto;
+        }
         .contact-text {
-            width: 90%;
             margin-left: 1rem;
         }
         form {
@@ -496,6 +509,15 @@ header {
             p {
                 margin: 0.5rem 0 0 1.2rem;
                 text-align: left;
+            }
+            .button{
+                margin: 1rem auto 0 auto;
+                text-align: center;
+                padding: 0.5rem;
+                background-color: $sub-color-gray;
+                &:hover{
+                    background-color: $sub-color-blue;
+                }
             }
         }
     }

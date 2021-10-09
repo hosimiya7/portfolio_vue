@@ -38159,7 +38159,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "skill-content-wrapper" }, [
+    return _c("div", { staticClass: "flex skill-content-wrapper" }, [
       _c("div", { staticClass: "skill-content" }, [
         _c("div", { staticClass: "flex" }, [
           _c("h3", { staticClass: "bold" }, [_vm._v("html css(sass)")]),

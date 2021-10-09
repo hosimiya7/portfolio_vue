@@ -537,11 +537,27 @@ header .header-wrapper .header-text p {
 .skill-wrapper .skill-content-wrapper {
   margin-top: 2rem;
   margin-bottom: 3rem;
+  flex-flow: column;
+}
+
+@media screen and (min-width: 560px) {
+  .skill-wrapper .skill-content-wrapper {
+    flex-flow: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    align-items: baseline;
+  }
 }
 
 .skill-wrapper .skill-content-wrapper .skill-content {
   width: 90%;
   margin: 2rem auto 0 auto;
+}
+
+@media screen and (min-width: 560px) {
+  .skill-wrapper .skill-content-wrapper .skill-content {
+    width: 40%;
+  }
 }
 
 .skill-wrapper .skill-content-wrapper .skill-content .flex {
@@ -578,8 +594,13 @@ header .header-wrapper .header-text p {
   margin-left: 1rem;
 }
 
+@media screen and (min-width: 560px) {
+  .contact-wrapper .contact-content {
+    margin: 0 auto;
+  }
+}
+
 .contact-wrapper .contact-content .contact-text {
-  width: 90%;
   margin-left: 1rem;
 }
 
@@ -591,6 +612,17 @@ header .header-wrapper .header-text p {
 .contact-wrapper .contact-content form p {
   margin: 0.5rem 0 0 1.2rem;
   text-align: left;
+}
+
+.contact-wrapper .contact-content form .button {
+  margin: 1rem auto 0 auto;
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #f9f9f9;
+}
+
+.contact-wrapper .contact-content form .button:hover {
+  background-color: #ebf0f2;
 }
 
 /*============

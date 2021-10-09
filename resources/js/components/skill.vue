@@ -4,7 +4,7 @@
       <div class="skill-heading">
         <heading></heading>
       </div>
-      <div class="skill-content-wrapper">
+      <div class="flex skill-content-wrapper">
         <div class="skill-content">
           <div class="flex">
             <h3 class="bold">html css(sass)</h3>
