@@ -123,7 +123,7 @@ input {
     }
 }
 
-.content-wrapper{
+.content-wrapper {
     margin-top: 3rem;
 }
 
@@ -242,6 +242,10 @@ header {
 .work-wrapper {
     background-color: $sub-color-gray;
     padding-bottom: 6rem;
+    @include mq(lg) {
+        padding-top: 3rem;
+        margin-top: -3rem;
+    }
     .work-list {
         margin-top: 3rem;
         flex-flow: column;
@@ -276,6 +280,9 @@ header {
     .service-content-wrapper {
         flex-flow: column;
         margin: 1rem 0 0 0;
+        @include mq(lg) {
+            flex-flow: inherit;
+        }
     }
     .flex {
         margin-bottom: 1rem;
@@ -294,10 +301,17 @@ header {
     .heading-wrapper {
         background-color: $sub-color-blue;
         padding-right: 1rem;
+        @include mq(lg) {
+            padding-top: 3rem;
+            margin-top: -3rem;
+        }
     }
     .service-content {
         width: 90%;
         margin: 0 auto;
+        @include mq(lg) {
+            width: 30%;
+        }
         .flex {
             align-items: flex-end;
         }
@@ -310,6 +324,14 @@ header {
     .design-wrapper {
         .flex {
             flex-flow: row-reverse;
+            @include mq(lg) {
+                flex-flow: row;
+            }
+        }
+        .accent-text {
+            @include mq(lg) {
+                text-align: right;
+            }
         }
         img {
             margin-left: 1rem;
@@ -340,6 +362,9 @@ header {
             transform: rotate(82deg);
             width: 0;
             margin-left: 9rem;
+            @include mq(lg) {
+                margin-left: 28vw;
+            }
         }
         .triangle {
             border-right: 70px solid transparent;
@@ -356,13 +381,17 @@ header {
         margin-top: 2rem;
         position: relative;
         background-color: $sub-color-yellow;
+        overflow: hidden;
+        @include mq(lg) {
+            margin-top: 0;
+        }
         &::before {
             content: "";
             position: absolute;
             left: 0;
             border-top: 10vw solid $main-color;
             border-right: 100vw solid transparent;
-            z-index: 2;
+            z-index: 5;
         }
         &::after {
             content: "";
@@ -378,11 +407,18 @@ header {
             width: 100%;
             margin-top: 4rem;
             filter: sepia(30%);
+            @include mq(lg) {
+                object-fit: cover;
+                height: 400px;
+            }
         }
     }
     .about-content {
         width: 90%;
         margin: 0 auto;
+        @include mq(lg) {
+            width: 60%;
+        }
         h3 {
             font-size: 1.5rem;
             font-family: $font-family-title-ja;
