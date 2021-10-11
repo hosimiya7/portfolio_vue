@@ -12,7 +12,7 @@
           <div class="mask">
             <div class="caption">
               <p>和菓子サイト（自主制作）/ 2021.9</p>
-              <p>別windowで開く</p>
+              <p>別タブで開く</p>
             </div>
           </div>
         </a>
@@ -25,7 +25,7 @@
           <div class="mask">
             <div class="caption">
               <p>お化け屋敷サイト（自主制作）/ 2021.8</p>
-              <p>別windowで開く</p>
+              <p>別タブで開く</p>
             </div>
           </div>
         </a>

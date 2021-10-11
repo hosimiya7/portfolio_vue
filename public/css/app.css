@@ -351,8 +351,9 @@ header .header-wrapper .header-text p {
 
 @media screen and (min-width: 900px) {
   .service-wrapper .heading-wrapper {
-    padding-top: 3rem;
+    padding-top: 4.5rem;
     margin-top: -3rem;
+    padding-bottom: 2rem;
   }
 }
 
@@ -604,24 +605,24 @@ header .header-wrapper .header-text p {
   margin-left: 1rem;
 }
 
-.contact-wrapper .contact-content form {
+.contact-wrapper .contact-content .form {
   margin-top: 1rem;
   text-align: center;
 }
 
-.contact-wrapper .contact-content form p {
+.contact-wrapper .contact-content .form p {
   margin: 0.5rem 0 0 1.2rem;
   text-align: left;
 }
 
-.contact-wrapper .contact-content form .button {
+.contact-wrapper .contact-content .form .button {
   margin: 1rem auto 0 auto;
   text-align: center;
   padding: 0.5rem;
   background-color: #f9f9f9;
 }
 
-.contact-wrapper .contact-content form .button:hover {
+.contact-wrapper .contact-content .form .button:hover {
   background-color: #ebf0f2;
 }
 

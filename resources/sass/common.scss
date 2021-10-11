@@ -302,8 +302,9 @@ header {
         background-color: $sub-color-blue;
         padding-right: 1rem;
         @include mq(lg) {
-            padding-top: 3rem;
+            padding-top: 4.5rem;
             margin-top: -3rem;
+            padding-bottom: 2rem;
         }
     }
     .service-content {
@@ -503,19 +504,19 @@ header {
         .contact-text {
             margin-left: 1rem;
         }
-        form {
+        .form {
             margin-top: 1rem;
             text-align: center;
             p {
                 margin: 0.5rem 0 0 1.2rem;
                 text-align: left;
             }
-            .button{
+            .button {
                 margin: 1rem auto 0 auto;
                 text-align: center;
                 padding: 0.5rem;
                 background-color: $sub-color-gray;
-                &:hover{
+                &:hover {
                     background-color: $sub-color-blue;
                 }
             }
