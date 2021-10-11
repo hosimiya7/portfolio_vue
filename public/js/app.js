@@ -1974,6 +1974,7 @@ __webpack_require__.r(__webpack_exports__);
         email: document.getElementById("email").value,
         content: document.getElementById("content").value
       }).then(function (response) {
+        document.getElementById('contact-text').innerHTML = "ご連絡ありがとうございました。送信完了しました。";
         console.log(response);
       })["catch"](function (error) {
         console.log(error);
@@ -37889,7 +37890,7 @@ var render = function() {
     _vm._m(0),
     _vm._v(" "),
     _c("div", { staticClass: "contact-content" }, [
-      _c("p", { staticClass: "contact-text" }, [
+      _c("p", { staticClass: "contact-text", attrs: { id: "contact-text" } }, [
         _vm._v(
           "\n      制作のご依頼やご相談など、\n      お気軽にご連絡ください。\n    "
         )

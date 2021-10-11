@@ -6,7 +6,7 @@
       </ul>
     </div>
     <div class="contact-content">
-      <p class="contact-text">
+      <p class="contact-text" id="contact-text">
         制作のご依頼やご相談など、
         お気軽にご連絡ください。
       </p>
@@ -34,6 +34,7 @@ export default {
           content: document.getElementById("content").value
         })
         .then(function(response) {
+          document.getElementById('contact-text').innerHTML = "ご連絡ありがとうございました。送信完了しました。"
           console.log(response);
         })
         .catch(function(error) {
