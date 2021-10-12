@@ -5,11 +5,6 @@
 =============*/
 
 @font-face {
-  font-family: "HannariMincho";
-  src: url(/fonts/HannariMincho.otf?1d781e720fe525e7a2004c40b9f1718e);
-}
-
-@font-face {
   font-family: "Yugoth";
   src: url(/public/fonts/YuGothR.ttc);
 }
@@ -220,7 +215,7 @@ header .header-wrapper .header-text {
 
 header .header-wrapper .header-text h2 {
   font-size: 1.5rem;
-  font-family: "HannariMincho";
+  font-family: "Sawarabi Mincho", sans-serif;
 }
 
 header .header-wrapper .header-text p {
@@ -500,7 +495,7 @@ header .header-wrapper .header-text p {
 
 .about-wrapper .about-content h3 {
   font-size: 1.5rem;
-  font-family: "HannariMincho";
+  font-family: "Sawarabi Mincho", sans-serif;
   margin-top: 3rem;
 }
 
