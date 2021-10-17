@@ -247,7 +247,14 @@ header {
         flex-flow: column;
         @include mq(md) {
             flex-flow: row;
-            justify-content: space-around;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &::after {
+                content: "";
+                display: block;
+                width: 45%;  /* .boxに指定したwidthと同じ幅を指定する */
+                height: 0;
+            }
         }
         a {
             width: 90%;
@@ -255,10 +262,6 @@ header {
             position: relative;
             @include mq(md) {
                 width: 40%;
-                height: fit-content;
-            }
-            @include mq(lg) {
-                width: 30%;
                 height: fit-content;
             }
             img {

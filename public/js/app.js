@@ -38390,6 +38390,8 @@ var staticRenderFns = [
             _c("div", { staticClass: "caption" }, [
               _c("p", [_vm._v("和菓子サイト（自主制作）/ 2021.9")]),
               _vm._v(" "),
+              _c("p", [_vm._v("デザイン・コーディング")]),
+              _vm._v(" "),
               _c("p", [_vm._v("別タブで開く")])
             ])
           ])
@@ -38411,6 +38413,32 @@ var staticRenderFns = [
           _c("div", { staticClass: "mask" }, [
             _c("div", { staticClass: "caption" }, [
               _c("p", [_vm._v("お化け屋敷サイト（自主制作）/ 2021.8")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("デザイン・コーディング")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("別タブで開く")])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "https://hosimiya7.github.io/aquarium-site/",
+            target: "_blank",
+            rel: "noopener noreferrer"
+          }
+        },
+        [
+          _c("img", { attrs: { src: "/img/work-3.png", alt: "" } }),
+          _vm._v(" "),
+          _c("div", { staticClass: "mask" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("水族館サイト（自主制作）/ 2021.10")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("デザイン・コーディング")]),
               _vm._v(" "),
               _c("p", [_vm._v("別タブで開く")])
             ])

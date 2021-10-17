@@ -275,7 +275,16 @@ header .header-wrapper .header-text p {
 @media screen and (min-width: 560px) {
   .work-wrapper .work-list {
     flex-flow: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .work-wrapper .work-list::after {
+    content: "";
+    display: block;
+    width: 45%;
+    /* .boxに指定したwidthと同じ幅を指定する */
+    height: 0;
   }
 }
 
@@ -288,15 +297,6 @@ header .header-wrapper .header-text p {
 @media screen and (min-width: 560px) {
   .work-wrapper .work-list a {
     width: 40%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .work-wrapper .work-list a {
-    width: 30%;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
