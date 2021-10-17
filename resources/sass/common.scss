@@ -252,7 +252,7 @@ header {
             &::after {
                 content: "";
                 display: block;
-                width: 45%;  /* .boxに指定したwidthと同じ幅を指定する */
+                width: 50%;  /* .boxに指定したwidthと同じ幅を指定する */
                 height: 0;
             }
         }
@@ -261,7 +261,7 @@ header {
             margin: 2rem auto 0 auto;
             position: relative;
             @include mq(md) {
-                width: 40%;
+                width: 45%;
                 height: fit-content;
             }
             img {

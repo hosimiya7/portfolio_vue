@@ -282,7 +282,7 @@ header .header-wrapper .header-text p {
   .work-wrapper .work-list::after {
     content: "";
     display: block;
-    width: 45%;
+    width: 50%;
     /* .boxに指定したwidthと同じ幅を指定する */
     height: 0;
   }
@@ -296,7 +296,7 @@ header .header-wrapper .header-text p {
 
 @media screen and (min-width: 560px) {
   .work-wrapper .work-list a {
-    width: 40%;
+    width: 45%;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
