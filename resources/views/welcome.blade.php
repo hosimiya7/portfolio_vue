@@ -7,12 +7,12 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <meta name="description"
-        content="ホームページ制作をしている星宮のポートフォリオです。「魅力を最大限伝える」ことを第一に、 お客様の目的に沿った「魅せ方」を提案させていただきます。お気軽にご相談ください ">
-    <meta property="og:site_name" content="hosimiya's portfolio">
+        content="hosiokuri web制作を行っています。「魅力を最大限伝える」ことを第一に、 お客様の目的に沿った「魅せ方」を提案させていただきます。お気軽にご相談ください ">
+    <meta property="og:site_name" content="hosiokuri portfolio">
     <meta name="twitter:card" content="summary" />
     <meta property="og:url" content="http://hosimiya.site/" />
-    <meta property="og:title" content="hosimiya's portfolio" />
-    <meta property="og:description" content="デザイン&コーディング hosimiya's portfolio" />
+    <meta property="og:title" content="hosiokuri portfolio" />
+    <meta property="og:description" content="デザイン&コーディング hosiokuri portfolio" />
     <meta property="og:image" content="img/header-large.jpg" />
     <meta property="og:type" content="website">
 

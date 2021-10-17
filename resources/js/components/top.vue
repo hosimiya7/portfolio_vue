@@ -4,7 +4,7 @@
       <img src="/img/header-large.jpg" alt />
     </div>
     <div class="header-center">
-      <h1>hosimiya</h1>
+      <h1>hosiokuri</h1>
       <p>website design &amp; coding</p>
     </div>
     <div class="header-bottom">

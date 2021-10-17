@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="footer-text">
-        <p>hosimiya</p>
+        <p>hosiokuri</p>
     </div>
   </div>
 </template>

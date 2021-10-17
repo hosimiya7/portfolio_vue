@@ -7,8 +7,7 @@
           <div class="triangle"></div>
         </div>
         <div class="about-content-title about-content">
-          <h3>星宮 りん</h3>
-          <h4>Hosimiya Rin</h4>
+          <h3>中村 星穂</h3>
         </div>
         <div class="about-content-text about-content">
           <p>2021年4月から独学でデザインやコーディング、プログラミングを始め、現在は、web制作に携わったり、ゲームを開発したりしています。
