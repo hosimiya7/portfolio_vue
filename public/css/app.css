@@ -497,10 +497,7 @@ header .header-wrapper .header-text p {
   font-size: 1.5rem;
   font-family: "Sawarabi Mincho", sans-serif;
   margin-top: 3rem;
-}
-
-.about-wrapper .about-content h4 {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .about-wrapper .about-content p {
@@ -640,6 +637,6 @@ header .header-wrapper .header-text p {
 }
 
 .footer-wrapper .footer-text {
-  margin: 0.2rem 0 0.5rem 1rem;
+  padding: 0.2rem 0 0.5rem 1rem;
 }
 

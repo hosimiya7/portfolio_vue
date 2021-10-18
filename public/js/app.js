@@ -37783,9 +37783,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "about-content-title about-content" }, [
-        _c("h3", [_vm._v("星宮 りん")]),
-        _vm._v(" "),
-        _c("h4", [_vm._v("Hosimiya Rin")])
+        _c("h3", [_vm._v("中村 星穂")])
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "about-content-text about-content" }, [
@@ -37861,7 +37859,9 @@ var staticRenderFns = [
         ])
       ]),
       _vm._v(" "),
-      _c("div", { staticClass: "footer-text" }, [_c("p", [_vm._v("hosimiya")])])
+      _c("div", { staticClass: "footer-text" }, [
+        _c("p", [_vm._v("hosiokuri")])
+      ])
     ])
   }
 ]
@@ -38313,7 +38313,7 @@ var staticRenderFns = [
       ]),
       _vm._v(" "),
       _c("div", { staticClass: "header-center" }, [
-        _c("h1", [_vm._v("hosimiya")]),
+        _c("h1", [_vm._v("hosiokuri")]),
         _vm._v(" "),
         _c("p", [_vm._v("website design & coding")])
       ]),
