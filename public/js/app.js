@@ -38392,6 +38392,8 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("p", [_vm._v("デザイン・コーディング")]),
               _vm._v(" "),
+              _c("p", [_vm._v("html/sass/jQuery")]),
+              _vm._v(" "),
               _c("p", [_vm._v("別タブで開く")])
             ])
           ])
@@ -38416,6 +38418,8 @@ var staticRenderFns = [
               _vm._v(" "),
               _c("p", [_vm._v("デザイン・コーディング")]),
               _vm._v(" "),
+              _c("p", [_vm._v("html/sass/js(自作)")]),
+              _vm._v(" "),
               _c("p", [_vm._v("別タブで開く")])
             ])
           ])
@@ -38439,6 +38443,34 @@ var staticRenderFns = [
               _c("p", [_vm._v("水族館サイト（自主制作）/ 2021.10")]),
               _vm._v(" "),
               _c("p", [_vm._v("デザイン・コーディング")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("html/sass/js(slick等ライブラリ)")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("別タブで開く")])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          attrs: {
+            href: "https://hosimiya7.github.io/jewelry/",
+            target: "_blank",
+            rel: "noopener noreferrer"
+          }
+        },
+        [
+          _c("img", { attrs: { src: "/img/work-4.png", alt: "" } }),
+          _vm._v(" "),
+          _c("div", { staticClass: "mask" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("ジュエリーサイト（自主制作）/ 2021.11")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("デザイン・コーディング")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("html/sass/jQuery")]),
               _vm._v(" "),
               _c("p", [_vm._v("別タブで開く")])
             ])
