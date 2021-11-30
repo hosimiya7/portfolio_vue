@@ -4,6 +4,21 @@
       <heading></heading>
       <div class="flex work-list">
         <a
+          href="https://slow-hair.stlye"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/img/work-5.png" alt />
+          <div class="mask">
+            <div class="caption">
+              <p>hair&amp;spa slow/ 2021.11</p>
+              <p>デザイン・コーディング</p>
+              <p>html/sass/jsライブラリ</p>
+              <p>別タブで開く</p>
+            </div>
+          </div>
+        </a>
+        <a
           href="https://hosimiya7.github.io/Japanese_sweets/"
           target="_blank"
           rel="noopener noreferrer"

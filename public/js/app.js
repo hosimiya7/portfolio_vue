@@ -38378,6 +38378,32 @@ var staticRenderFns = [
         "a",
         {
           attrs: {
+            href: "https://slow-hair.stlye",
+            target: "_blank",
+            rel: "noopener noreferrer"
+          }
+        },
+        [
+          _c("img", { attrs: { src: "/img/work-5.png", alt: "" } }),
+          _vm._v(" "),
+          _c("div", { staticClass: "mask" }, [
+            _c("div", { staticClass: "caption" }, [
+              _c("p", [_vm._v("hair&spa slow/ 2021.11")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("デザイン・コーディング")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("html/sass/jsライブラリ")]),
+              _vm._v(" "),
+              _c("p", [_vm._v("別タブで開く")])
+            ])
+          ])
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          attrs: {
             href: "https://hosimiya7.github.io/Japanese_sweets/",
             target: "_blank",
             rel: "noopener noreferrer"
